@@ -22,6 +22,7 @@
 #include "environmental_chamber_Control.h"
 #include "environmental_chamber_monitor.h"
 #include "custom_bool.h"
+#include "PID_v1.h"
 
 SemaphoreHandle_t xSemaphore_Stop_Control;
 QueueHandle_t xQueue_Run_RH_control;
@@ -138,6 +139,12 @@ void task_RH_Control_SetPoint(){
 
 
 void task_RH_Control_PID(){
+
+  //usar el ejemplo PID_Adaptive_Tuning
+  //y segun el valor de analog write decidir si es humidify, dry o nada
+
+  
+
 }
 
 void task_TEMP_Control_SetPoint(){
@@ -147,5 +154,5 @@ void task_TEMP_Control_PID(){
 }
 
 void enable_TEMP_Task(double targetTEMP){
-  
+
 }
