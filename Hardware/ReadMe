@@ -1,0 +1,8 @@
+# Environmental Chamber Hardware
+
+PCB desing made with Kicad: ESP32 connection, optoacoplators
+Sensor -> BME280
+Pump ->?
+Humidificator -> 1.7Mhz Piezoelectric, 24V
+Valve -> 12V selenoidal
+
