@@ -6,4 +6,4 @@ ESP32
 BME280 - humidity, temperature and pressure sensor - bosh
 Humidifier - 2.4Mhz
 Air Pump
-Realy x2
+Relay x2
